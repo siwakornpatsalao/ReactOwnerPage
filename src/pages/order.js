@@ -16,7 +16,7 @@ import InputLabel from '@mui/material/InputLabel';
 import { SeverityPill } from 'src/components/severity-pill';
 import Swal from 'sweetalert2';
 import TablePagination from "@mui/material/TablePagination";
-import TablePage from "../components/TablePagination";
+import {TablePaginationActions as TablePage} from "../components/TablePagination";
 
 
 /* function createData(order, menu, date, time, status) {

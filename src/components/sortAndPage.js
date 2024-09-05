@@ -5,7 +5,7 @@ import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import TablePagination from "@mui/material/TablePagination";
-import TablePage from "../components/TablePagination";
+import {TablePaginationActions as TablePage} from "../components/TablePagination";
 
 export default function SortAndPage(){
     const [sortOrder, setSortOrder] = useState("desc");
