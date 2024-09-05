@@ -116,7 +116,7 @@ const Page = () => {
         >
           <div>
             <Stack spacing={1} sx={{ mb: 2 }}>
-              <Typography variant="h4">เข้าสู่ระแบบ</Typography>
+              <Typography variant="h4">เข้าสู่ระบบ</Typography>
               <Typography color="text.secondary" variant="h6">
                 ยังไม่มีร้านค้าใช่หรือไม่ &nbsp;
                 <Link
