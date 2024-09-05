@@ -156,7 +156,7 @@ function Menu() {
   useEffect(() => {
     async function fetchMenus() {
       try {
-        const res = await fetch("https://mongodbshop.onrender.com/menus");
+        const res = await fetch("http://localhost:5000/menus");
         const data = await res.json();
         setMenus(data);
         setOriginalMenus(data);
@@ -168,7 +168,7 @@ function Menu() {
 
     async function fetchCategory() {
       try {
-        const res = await fetch("https://mongodbshop.onrender.com/category");
+        const res = await fetch("http://localhost:5000/category");
         const data = await res.json();
         setCategories(data);
         console.log(data);
@@ -179,7 +179,7 @@ function Menu() {
 
     async function fetchPromotion() {
       try {
-        const res = await fetch("https://mongodbshop.onrender.com/promotions");
+        const res = await fetch("http://localhost:5000/promotions");
         const data = await res.json();
         setPromotion(data);
         console.log("Promotion Data:", data);
