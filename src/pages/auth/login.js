@@ -93,7 +93,7 @@ const Page = () => {
   return (
     <div>
       <Head>
-        <title>เข้าสู่ระแบบ</title>
+        <title>เข้าสู่ระบบ</title>
       </Head>
 
       <Box
