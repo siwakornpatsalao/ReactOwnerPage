@@ -5,14 +5,12 @@
   "licence": "MIT",
   "homepage": "https://devias.io",
   "private": false,
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "lint": "next lint",
-    "lint-fix": "next lint --fix"
-  },
+    "scripts": {
+      "build": "next build",
+      "start": "next start",
+      "dev": "next dev"
+    }
+  ,
   "dependencies": {
     "@date-io/dayjs": "^2.16.0",
     "@emotion/cache": "11.10.5",
